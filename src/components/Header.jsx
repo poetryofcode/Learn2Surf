@@ -105,10 +105,10 @@ export default function Header() {
               </a>
               <img src={news} alt="news" />
             </div>
-          </div>
-          <div className="header__buttons">
-            <a className="header__buttons-book">book now</a>
-            <a className="header__buttons-activities">activities</a>
+            <div className="header__buttons">
+              <a className="header__buttons-book">book now</a>
+              <a className="header__buttons-activities">activities</a>
+            </div>{" "}
           </div>
         </div>
       </div>

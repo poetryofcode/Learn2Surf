@@ -82,6 +82,8 @@ body {
 
 .title-img {
   max-width: 100%;
+  z-index: -1;
+  position: relative;
 }
 
 .title-text {
@@ -93,9 +95,23 @@ body {
   margin-top: 20px;
 }
 
+header {
+  background: url("/src/assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 100vh;
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  gap: 118px;
+  margin-top: auto;
 }
 
 .header__info-list {
@@ -114,7 +130,79 @@ body {
   font-weight: 700;
 }
 
+.header__social {
+  margin-top: auto;
+}
+
 .header__social-list {
   display: flex;
   gap: 20px;
+}
+
+.header__news-box {
+  width: 392px;
+  height: 485px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  margin-top: -40px;
+}
+
+.header__news-title,
+.header__news-subtitle {
+  color: #2b2a29;
+  font-family: "Rethink Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header__news-link {
+  color: #2b2a29;
+  font-family: "Rethink Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.header__buttons-book {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  background-color: #2b2a29;
+  font-family: "Rethink Sans";
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.header__buttons-activities {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #2b2a29;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Rethink Sans";
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 1px solid #2b2a29;
 }
