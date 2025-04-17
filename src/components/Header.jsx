@@ -1,11 +1,10 @@
 import phone from "../assets/phone.svg";
-import title from "../assets/title.png";
+import title from "../assets/surfinschool.png";
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import youtube from "../assets/youtube.svg";
 import whatsapp from "../assets/whatsapp.svg";
 import news from "../assets/news-img.jpg";
-import "../index.css";
 // import { useState } from "react";
 
 export default function Header() {
@@ -61,8 +60,8 @@ export default function Header() {
           </a>
         </div>
         <img className="title-img" src={title} alt="title" />
-        <h1 className="title">Surfing school</h1>
-        <p className="title-text">Vilamoura, Portugal</p>
+        <h1 className="title visually-hidden">Surfing school</h1>
+        <p className="title-text">Kailua, Hawaii</p>
         <div className="header__content">
           <div className="header__info">
             <ul className="header__info-list">
