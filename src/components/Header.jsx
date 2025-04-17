@@ -5,10 +5,20 @@ import instagram from "../assets/instagram.svg";
 import youtube from "../assets/youtube.svg";
 import whatsapp from "../assets/whatsapp.svg";
 import news from "../assets/news-img.jpg";
+import "../index.css";
+// import { useState } from "react";
 
 export default function Header() {
+  // const [response, setResponse] = useState("");
+  // async function fetchHandler() {
+  //   const request = await fetch("http://localhost:3000");
+  //   const text = await request.text();
+  //   setResponse(text);
+  // }
   return (
     <header>
+      {/* <button onClick={fetchHandler}>Fetch data</button>
+      <p>{response}</p> */}
       <div className="container">
         <div className="header__top">
           <nav className="menu">
@@ -44,11 +54,11 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-            <a className="phone" href="tel:+14434451191">
-              <img src={phone} alt="phone" />
-              +1(443)445-1191
-            </a>
           </nav>
+          <a className="phone" href="tel:+14434451191">
+            <img src={phone} alt="phone" />
+            +1(443)445-1191
+          </a>
         </div>
         <img className="title-img" src={title} alt="title" />
         <h1 className="title">Surfing school</h1>
