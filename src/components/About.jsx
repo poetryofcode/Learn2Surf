@@ -21,31 +21,28 @@ function About() {
             </ul>
             <div className="about__text">
               <p>
-                Was founded in 2006, being the FIRST SURF SCHOOL OF VILAMOURA
-                BEACH, ALGARVE. Our school is certified by the Portuguese
-                Surfing Federation and by Turismo de Portugal. The School aims
-                to teach the art of surfing the waves in a safe, correct and
-                relaxed way, always under the close and attentive supervision of
-                teachers. Thousands of people have already learned from us to
-                slide on the wave wall on top of a board.
+                Was founded in 2006, being the FIRST SURF SCHOOL OF KAILUA
+                BEACH, ALGARVE. Our school is certified by the Hawaii Surfing
+                Federation and by Turismo de Hawaii. The School aims to teach
+                the art of surfing the waves in a safe, correct and relaxed way,
+                always under the close and attentive supervision of teachers.
+                Thousands of people have already learned from us to slide on the
+                wave wall on top of a board.
               </p>
-              <p className="about__text">
+              <p>
                 We have facilities that allow our students to equip themselves
                 and keep their belongings safe and at the end of the class they
                 have a warm shower at their disposal. We have a wide variety of
                 safe boards (softboards) and modern wetsuits to teach in a safe
                 and fun way. The heads of the School are trained by the Faculty,
-                experienced and accredited by the Portuguese Surf Federation.
-                The School is open everyday of the year, including weekends and
+                experienced and accredited by the Hawaii Surf Federation. The
+                School is open everyday of the year, including weekends and
                 holidays. Hours vary depending on tides and sea conditions.
               </p>
             </div>
           </div>
           <div className="about__img">
             <img src={about} alt="image" />
-            <a className="about__link" href="#">
-              activities
-            </a>
           </div>
         </div>
       </div>

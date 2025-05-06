@@ -207,3 +207,72 @@ header {
   text-transform: uppercase;
   border: 1px solid #2b2a29;
 }
+
+.text {
+  margin: 150px 0;
+  max-width: 1073px;
+  color: #2b2a29;
+  font-family: "Rethink Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.about__content {
+  max-width: 550px;
+}
+
+.about__subtitle {
+  font-family: "Rethink Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.about__title {
+  font-family: "Rethink Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 10px;
+  max-width: 510px;
+  margin-bottom: 256px;
+}
+
+.about-item {
+  padding: 10px 20px;
+  color: #0a507a;
+  border: 1px solid #0a507a;
+  border-radius: 30px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Rethink Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
