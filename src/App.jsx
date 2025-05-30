@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Activities from "./components/Activities";
 import Header from "./components/Header";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <About />
+      <Activities />
     </>
   );
 }
