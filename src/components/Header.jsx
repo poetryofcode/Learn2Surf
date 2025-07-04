@@ -5,20 +5,11 @@ import instagram from "../assets/instagram.svg";
 import youtube from "../assets/youtube.svg";
 import whatsapp from "../assets/whatsapp.svg";
 import news from "../assets/news-img.jpg";
-// import { useState } from "react";
 
 export default function Header() {
-  // const [response, setResponse] = useState("");
-  // async function fetchHandler() {
-  //   const request = await fetch("http://localhost:3000");
-  //   const text = await request.text();
-  //   setResponse(text);
-  // }
   return (
     <>
       <header>
-        {/* <button onClick={fetchHandler}>Fetch data</button>
-      <p>{response}</p> */}
         <div className="container">
           <div className="header__top">
             <nav className="menu">
