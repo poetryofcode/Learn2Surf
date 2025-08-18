@@ -1,0 +1,49 @@
+.reviews {
+  margin: 150px 0;
+  &__top {
+    margin-bottom: 100px;
+    margin-left: 50%;
+  }
+  &__subtitle {
+    color: var(--Black, #2b2a29);
+    font-family: "Rethink Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  &__title {
+    color: var(--Black, #2b2a29);
+    font-family: "Rethink Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    gap: 20px;
+  }
+  &__img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__item:nth-child(even) {
+    margin-top: 100px;
+  }
+  .blockquote {
+    tab-size: 16px;
+    margin: 0;
+    text-align: center;
+
+    &__text {
+      margin-bottom: 15px;
+    }
+    &__cite {
+      display: block;
+    }
+  }
+}
