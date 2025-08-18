@@ -3,6 +3,7 @@ import Activities from "./components/Activities";
 import Header from "./components/Header";
 import Image from "./components/Image";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Activities />
       <Image />
       <Reviews />
+      <Footer />
     </>
   );
 }
