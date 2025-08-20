@@ -23,7 +23,7 @@ export default function Reviews() {
             <dd>RNAAT registration 986/2016</dd>
           </div>
           <div className={styles.footer__infoitem}>
-            <dt>Adress</dt>
+            <dt>Address</dt>
             <dd>
               record n.325
               <br />
