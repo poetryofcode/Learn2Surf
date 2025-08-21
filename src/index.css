@@ -107,6 +107,7 @@ header {
 .header__content {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .header__info {
@@ -333,4 +334,41 @@ header {
 
 .img {
   max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .header__news-box,
+  .header__content,
+  .menu {
+    display: none;
+  }
+
+  .text {
+    margin-top: -317px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .header__top {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__top {
+    padding: 25px 0;
+  }
+  .title-text {
+    margin: 0 auto;
+    width: 164px;
+    display: flex;
+  }
+  .title-img {
+    margin-bottom: 25px;
+  }
+
+  .text {
+    margin: 0;
+    margin-top: -317px;
+  }
 }
