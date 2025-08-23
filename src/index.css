@@ -336,6 +336,11 @@ header {
   max-width: 100%;
 }
 
+@media (max-width: 1500px) {
+  .about {
+    display: none;
+  }
+}
 @media (max-width: 1000px) {
   .header__news-box,
   .header__content,
