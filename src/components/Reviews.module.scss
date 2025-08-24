@@ -47,3 +47,48 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .reviews__top {
+    margin-left: 0;
+  }
+  .reviews__items {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+  .reviews__item:nth-child(even):last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .reviews {
+    margin: 50px 0;
+  }
+  .reviews__items {
+    grid-template-columns: 1fr 2fr;
+  }
+  .reviews__item:nth-child(odd):last-child {
+    display: none;
+  }
+  .reviews__title {
+    font-size: 37px;
+  }
+  .reviews__top {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .reviews__items {
+    grid-template-columns: 1fr;
+  }
+  .reviews__item:nth-child(odd):first-child {
+    display: none;
+  }
+  .reviews__title {
+    font-size: 30px;
+  }
+  .reviews__item:nth-child(even) {
+    margin-top: 0px;
+  }
+}
